@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to HELM DECT</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='landing.css') }}">
+</head>
+<body>
+    <div class="landing-container">
+        <h1 class="landing-heading">Welcome to HELM DECT</h1>
+        <p class="landing-subheading">Your ultimate helmet detection solution</p>
+        <a href="{{ url_for('login') }}" class="landing-button">Get Started</a>
+    </div>
+</body>
+</html>
